@@ -1,4 +1,13 @@
 
+/* Styles for screens with a width of 600 pixels or less */
+@media (max-width: 600px) {
+  /* CSS rules for small screens */
+}
+
+/* Styles for screens with a width of 601 pixels or more */
+@media (min-width: 601px) {
+  /* CSS rules for larger screens */
+}
 
 body {
     background: #fff898;
@@ -10,6 +19,11 @@ body {
     overflow: hidden;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    width: 100%;
+    @media (max-width: 600px) {
+  .column {
+    width: 100%; /* Full width on smaller screens */
+  }
 }
 
 .navbar a {
