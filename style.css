@@ -1,0 +1,135 @@
+
+
+body {
+    background: #fff898;
+    background-blend-mode: normal;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 102);
+    overflow: hidden;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: poppins ;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.navbar a#account-link {
+    float: right;
+}
+
+.navbar a#account-link img {
+    height: 35px; /* Adjust the height as desired */
+    width: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align the image vertically */
+    margin-right: 5px; /* Add a margin between the image and text */
+}
+
+.logo {
+    position: absolute;
+    left: 38px;
+    top: 25px;
+    width: auto;
+    height: 50px;
+    font-family: Poppins ;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.content {
+    position: relative; /* Add relative positioning to create a container for the paragraph and button */
+    margin-top: 180px; /* Adjust the top margin as needed */
+    width: 100%;
+    text-align: center;
+}
+
+.para {
+    margin-bottom: 20px; /* Add margin below the paragraph */
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+    margin: 25px;
+    top: 100px;
+}
+
+.main {
+    
+        position: absolute;
+        left: 20%;
+        transform: translateX(-50%);
+        bottom: -60px; /* Adjust the distance from the bottom as needed */
+        text-align: center;
+    
+}
+
+.btn {
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    background: #ffbdbd;
+    border: none;
+    border-radius: 50px;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+   }
+   
+   .btn:hover {
+    box-shadow: inset 0 0 0 4px #ef476f, 
+                 inset 0 0 0 8px #ffd166, 
+                 inset 0 0 0 12px #06d6a0,
+                 inset 0 0 0 16px #118ab2;
+    background: #073b4c;
+    color: #fff;
+   }
+
+.camera {
+    position: absolute;
+    left: 700px;
+    top: 400px;
+    width: 80px;
+    height: 80px;
+}
+
+.cam {
+    position: absolute;
+    top: -140px;
+    left: 150px;
+}
+
+ #account-link {
+      transition: transform 0.3s ease-in-out;
+}
+
+#account-link:hover {
+    transform: scale(1.5); /* Increase the scale to enlarge the image */
+}
+
+/* style.css */
+.camera .cam .hover-image {
+    display: none;
+  }
+  
+  .camera .cam:hover .hover-image {
+    display: inline-block;
+  }
+  
+  .camera .cam:hover .default-image {
+    display: none;
+  }
+  
+  
