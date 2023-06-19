@@ -1,13 +1,4 @@
 
-/* Styles for screens with a width of 600 pixels or less */
-@media (max-width: 600px) {
-  /* CSS rules for small screens */
-}
-
-/* Styles for screens with a width of 601 pixels or more */
-@media (min-width: 601px) {
-  /* CSS rules for larger screens */
-}
 
 body {
     background: #fff898;
