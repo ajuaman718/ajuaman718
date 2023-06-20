@@ -11,10 +11,6 @@ body {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     width: 100%;
-    @media (max-width: 600px) {
-  .column {
-    width: 100%; /* Full width on smaller screens */
-  }
 }
 
 .navbar a {
