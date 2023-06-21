@@ -96,10 +96,11 @@ body {
     padding: 10px;
     background-image: url(img/card1.svg);
     background-size: cover;
-  background-position: center;
+    background-position: center;
     margin-left: 25px;
     margin-top: 259px;
     box-shadow: 8px 9px 8px rgba(100,100,100,0.5);
+    top: 25px;
 }
  
   
@@ -108,11 +109,11 @@ body {
     font-weight: bold;
     color: #ffffff;
     margin: 0;
-    font-family: poppins semibold;
+    font-family: poppins ;
   }
 
   .info-card1 {
-    font-family: poppins semibold;
+    font-family: poppins;
     color: #ffffff;
     font-size: 26px;
   }
