@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="226px" height="282px" viewBox="0 0 226 282" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1" id="gradient_1">
+      <stop offset="2.247191%" stop-color="#470081" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1" id="gradient_2">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#FF0000" />
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0.8747095" y1="-0.099660546" x2="0.12529047" y2="1.0996605" id="gradient_3">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#FF0000" />
+    </linearGradient>
+    <path d="M202 0C215.257 0 226 10.7434 226 24L226 258C226 271.257 215.257 282 202 282L24 282C10.7434 282 0 271.257 0 258L0 24C0 10.7434 10.7434 0 24 0L202 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Oval-+-Oval-Copy-Mask">
+    <path d="M202 0C215.257 0 226 10.7434 226 24L226 258C226 271.257 215.257 282 202 282L24 282C10.7434 282 0 271.257 0 258L0 24C0 10.7434 10.7434 0 24 0L202 0Z" id="Mask" fill="url(#gradient_1)" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M-178 258.5C-178 178.143 -112.857 113 -32.5 113C47.8574 113 113 178.143 113 258.5C113 338.857 47.8574 404 -32.5 404C-112.857 404 -178 338.857 -178 258.5Z" id="Oval" fill="url(#gradient_2)" fill-rule="evenodd" stroke="none" />
+      <path d="M222.77 -144.271C301.068 -162.347 379.194 -113.528 397.271 -35.2304C415.347 43.0675 366.528 121.194 288.23 139.271C209.933 157.347 131.806 108.528 113.729 30.2304C95.6527 -48.0675 144.472 -126.194 222.77 -144.271Z" id="Oval-Copy" fill="url(#gradient_3)" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

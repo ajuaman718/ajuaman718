@@ -39,63 +39,15 @@ body {
 
 .logo {
     position: absolute;
-    left: 38px;
-    top: 25px;
+    top: 60px;
     width: auto;
-    height: 50px;
+    height: 35px;
     font-family: Poppins ;
-    font-size: 70px;
+    font-size: 55px;
     font-weight: 800;
 }
 
-.content {
-    position: relative; /* Add relative positioning to create a container for the paragraph and button */
-    margin-top: 180px; /* Adjust the top margin as needed */
-    width: 100%;
-    text-align: center;
-}
 
-.para {
-    margin-bottom: 20px; /* Add margin below the paragraph */
-    font-family: Poppins;
-    font-size: 35px;
-    font-weight: 700;
-    text-align: left;
-    margin: 25px;
-    top: 100px;
-}
-
-.main {
-    
-        position: absolute;
-        left: 20%;
-        transform: translateX(-50%);
-        bottom: -60px; /* Adjust the distance from the bottom as needed */
-        text-align: center;
-    
-}
-
-.btn {
-    width: 170px;
-    height: 60px;
-    font-size: 18px;
-    background: #ffbdbd;
-    border: none;
-    border-radius: 50px;
-    color: #000;
-    outline: none;
-    cursor: pointer;
-    transition: all 0.4s;
-   }
-   
-   .btn:hover {
-    box-shadow: inset 0 0 0 4px #ef476f, 
-                 inset 0 0 0 8px #ffd166, 
-                 inset 0 0 0 12px #06d6a0,
-                 inset 0 0 0 16px #118ab2;
-    background: #073b4c;
-    color: #fff;
-   }
 
 .camera {
     position: absolute;
@@ -138,5 +90,78 @@ body {
     margin-top: 300px;
     margin-left: 10px;
   }
+
+  .card {
+    border-radius: 15px;
+    padding: 10px;
+    background-image: url(img/card1.svg);
+    background-size: cover;
+  background-position: center;
+    margin-left: 25px;
+    margin-top: 259px;
+    box-shadow: 8px 9px 8px rgba(100,100,100,0.5);
+}
+ 
+  
+  .card-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+    font-family: poppins semibold;
+  }
+
+  .info-card1 {
+    font-family: poppins semibold;
+    color: #ffffff;
+    font-size: 26px;
+  }
+
+  button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 16px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   }
+   
+   button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   button:hover span {
+    padding-right: 15px;
+   }
+   
+   button:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+  
+
+
+  
+  
+  
   
   
