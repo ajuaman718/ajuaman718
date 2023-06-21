@@ -1,7 +1,7 @@
 
 
 body {
-    background: #fff898;
+    background: #fffde8;
     background-blend-mode: normal;
 }
 
@@ -130,6 +130,11 @@ body {
   
   .camera .cam:hover .default-image {
     display: none;
+  }
+
+  .text  {
+    text-align: center;
+    font-family: poppins;
   }
   
   
