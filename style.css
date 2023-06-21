@@ -133,8 +133,10 @@ body {
   }
 
   .text  {
-    text-align: center;
+    text-align: left;
     font-family: poppins;
+    margin-top: 300px;
+    margin-left: 10px;
   }
   
   
